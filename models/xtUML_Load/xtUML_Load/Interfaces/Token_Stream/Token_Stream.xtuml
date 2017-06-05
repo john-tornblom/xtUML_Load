@@ -1,0 +1,144 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("eaf03199-f9ed-4f65-a3e7-8f6b9a602d9a",
+	"00000000-0000-0000-0000-000000000000",
+	'Token_Stream',
+	'');
+INSERT INTO C_EP
+	VALUES ("66cb5613-2cdd-4b35-ae78-cbeb015ea007",
+	"eaf03199-f9ed-4f65-a3e7-8f6b9a602d9a",
+	-1,
+	'Value',
+	'');
+INSERT INTO C_AS
+	VALUES ("66cb5613-2cdd-4b35-ae78-cbeb015ea007",
+	'Value',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PP
+	VALUES ("fcfb142e-6216-41f4-8b66-630f597880bf",
+	"66cb5613-2cdd-4b35-ae78-cbeb015ea007",
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'Value',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("cc5d8bd1-dd4a-46f6-a3b4-d919c00924a7",
+	"eaf03199-f9ed-4f65-a3e7-8f6b9a602d9a",
+	-1,
+	'Identifier',
+	'');
+INSERT INTO C_AS
+	VALUES ("cc5d8bd1-dd4a-46f6-a3b4-d919c00924a7",
+	'Identifier',
+	'',
+	0,
+	"66cb5613-2cdd-4b35-ae78-cbeb015ea007");
+INSERT INTO C_PP
+	VALUES ("19edce72-c38b-47ba-b53b-be1ae5aa5841",
+	"cc5d8bd1-dd4a-46f6-a3b4-d919c00924a7",
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'Value',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("3b8887ad-6185-4258-bcdd-60c423b992ad",
+	"eaf03199-f9ed-4f65-a3e7-8f6b9a602d9a",
+	-1,
+	'Comment',
+	'');
+INSERT INTO C_AS
+	VALUES ("3b8887ad-6185-4258-bcdd-60c423b992ad",
+	'Comment',
+	'',
+	0,
+	"cc5d8bd1-dd4a-46f6-a3b4-d919c00924a7");
+INSERT INTO C_PP
+	VALUES ("d68562bc-a817-4eb2-a1de-8c827dd56784",
+	"3b8887ad-6185-4258-bcdd-60c423b992ad",
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'Value',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("bba682c4-04e9-41ef-bc87-a5e4f548b115",
+	"eaf03199-f9ed-4f65-a3e7-8f6b9a602d9a",
+	-1,
+	'End_Of_Stream',
+	'');
+INSERT INTO C_AS
+	VALUES ("bba682c4-04e9-41ef-bc87-a5e4f548b115",
+	'End_Of_Stream',
+	'',
+	0,
+	"3b8887ad-6185-4258-bcdd-60c423b992ad");
+INSERT INTO C_EP
+	VALUES ("c47de090-ac4a-46d2-8fee-a130ca24ede2",
+	"eaf03199-f9ed-4f65-a3e7-8f6b9a602d9a",
+	-1,
+	'Semicolon',
+	'');
+INSERT INTO C_AS
+	VALUES ("c47de090-ac4a-46d2-8fee-a130ca24ede2",
+	'Semicolon',
+	'',
+	0,
+	"bba682c4-04e9-41ef-bc87-a5e4f548b115");
+INSERT INTO C_EP
+	VALUES ("29988862-a219-4a33-84ad-d29c55ed492b",
+	"eaf03199-f9ed-4f65-a3e7-8f6b9a602d9a",
+	-1,
+	'Comma',
+	'');
+INSERT INTO C_AS
+	VALUES ("29988862-a219-4a33-84ad-d29c55ed492b",
+	'Comma',
+	'',
+	0,
+	"c47de090-ac4a-46d2-8fee-a130ca24ede2");
+INSERT INTO C_EP
+	VALUES ("0a59416f-6df4-4a51-80d4-ee8f73c38da0",
+	"eaf03199-f9ed-4f65-a3e7-8f6b9a602d9a",
+	-1,
+	'Left_Parenthesis',
+	'');
+INSERT INTO C_AS
+	VALUES ("0a59416f-6df4-4a51-80d4-ee8f73c38da0",
+	'Left_Parenthesis',
+	'',
+	0,
+	"29988862-a219-4a33-84ad-d29c55ed492b");
+INSERT INTO C_EP
+	VALUES ("0bc8f423-b3d5-4602-8bee-4e8c57b2d7ca",
+	"eaf03199-f9ed-4f65-a3e7-8f6b9a602d9a",
+	-1,
+	'Right_Parenthesis',
+	'');
+INSERT INTO C_AS
+	VALUES ("0bc8f423-b3d5-4602-8bee-4e8c57b2d7ca",
+	'Right_Parenthesis',
+	'',
+	0,
+	"0a59416f-6df4-4a51-80d4-ee8f73c38da0");
+INSERT INTO PE_PE
+	VALUES ("eaf03199-f9ed-4f65-a3e7-8f6b9a602d9a",
+	1,
+	"0b0b151d-078e-4fd3-ac16-f908be47496b",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("0b0b151d-078e-4fd3-ac16-f908be47496b",
+	"00000000-0000-0000-0000-000000000000",
+	"2d4e7b16-dfb2-4db4-a684-9485ebf8c38f",
+	'Interfaces',
+	'',
+	0,
+	'../Interfaces.xtuml');

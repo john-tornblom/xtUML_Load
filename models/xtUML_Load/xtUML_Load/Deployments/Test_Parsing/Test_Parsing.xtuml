@@ -1,0 +1,54 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("bd74d0eb-5b66-4764-b4c0-f5fc8879e723",
+	"00000000-0000-0000-0000-000000000000",
+	"2d4e7b16-dfb2-4db4-a684-9485ebf8c38f",
+	'Test_Parsing',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("9dfd6879-6fb8-4a40-a118-767fb65a7823",
+	112,
+	"bd74d0eb-5b66-4764-b4c0-f5fc8879e723",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'4.1.17',
+	'xtUML_Load::xtUML_Load::Deployments::Test_Parsing');
+INSERT INTO DIM_DIA
+	VALUES ("9dfd6879-6fb8-4a40-a118-767fb65a7823",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("bd74d0eb-5b66-4764-b4c0-f5fc8879e723",
+	1,
+	"2953fe79-707a-4205-9030-f5f540f1624c",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("2953fe79-707a-4205-9030-f5f540f1624c",
+	"00000000-0000-0000-0000-000000000000",
+	"2d4e7b16-dfb2-4db4-a684-9485ebf8c38f",
+	'Deployments',
+	'',
+	0,
+	'../Deployments.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("2d4e7b16-dfb2-4db4-a684-9485ebf8c38f",
+	'xtUML_Load',
+	1,
+	'../../../xtUML_Load.xtuml');

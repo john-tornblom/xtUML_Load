@@ -1,0 +1,88 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("f81521ab-8038-462b-9dd3-a43e0775b69e",
+	"00000000-0000-0000-0000-000000000000",
+	"2d4e7b16-dfb2-4db4-a684-9485ebf8c38f",
+	'Tests',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("e48ce5f3-c5ce-4272-bc79-3dced75f374f",
+	112,
+	"f81521ab-8038-462b-9dd3-a43e0775b69e",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'xtUML_Load::xtUML_Load::Deployments::Test_Scanning::Test_Scanning::Tests');
+INSERT INTO DIM_DIA
+	VALUES ("e48ce5f3-c5ce-4272-bc79-3dced75f374f",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_SYNC
+	VALUES ("110b3c4a-d16e-4bcd-8886-47dcab24fd9f",
+	"00000000-0000-0000-0000-000000000000",
+	'Test_Text',
+	'',
+	'Scanner::Text(Value: "INSERT INTO X VALUES (1, 2, 3, ''test'', 3.14);");
+',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'');
+INSERT INTO PE_PE
+	VALUES ("110b3c4a-d16e-4bcd-8886-47dcab24fd9f",
+	1,
+	"f81521ab-8038-462b-9dd3-a43e0775b69e",
+	"00000000-0000-0000-0000-000000000000",
+	1);
+INSERT INTO S_SYNC
+	VALUES ("1e289d69-fe7b-4134-ae6a-f47cb9c9798c",
+	"00000000-0000-0000-0000-000000000000",
+	'Test_Filename',
+	'',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'');
+INSERT INTO PE_PE
+	VALUES ("1e289d69-fe7b-4134-ae6a-f47cb9c9798c",
+	1,
+	"f81521ab-8038-462b-9dd3-a43e0775b69e",
+	"00000000-0000-0000-0000-000000000000",
+	1);
+INSERT INTO PE_PE
+	VALUES ("f81521ab-8038-462b-9dd3-a43e0775b69e",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"60807c53-04f0-4b61-a0db-8553b174c529",
+	7);
+INSERT INTO C_C_PROXY
+	VALUES ("60807c53-04f0-4b61-a0db-8553b174c529",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'Test_Scanning',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'../Test_Scanning.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("2d4e7b16-dfb2-4db4-a684-9485ebf8c38f",
+	'xtUML_Load',
+	1,
+	'../../../../../xtUML_Load.xtuml');
