@@ -353,7 +353,7 @@ void sql_tokenize_file(sql_token_cb cb, void* ctx, const char* filename) {
   t.value_size = 64;
   t.la         = ' ';
 
-  ASSERT(t.fp, "out of memory");
+  ASSERT(t.fp, "unable to open file");
   ASSERT(t.value, "out of memory");
 
   do {
