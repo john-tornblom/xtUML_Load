@@ -1,0 +1,62 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("c644f627-c064-40a0-ba0a-403bd0fbfae2",
+	'Parser',
+	6,
+	'Parser',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("1e2a602c-5591-4908-8877-c9a18edbc7af",
+	"c644f627-c064-40a0-ba0a-403bd0fbfae2");
+INSERT INTO O_BATTR
+	VALUES ("1e2a602c-5591-4908-8877-c9a18edbc7af",
+	"c644f627-c064-40a0-ba0a-403bd0fbfae2");
+INSERT INTO O_ATTR
+	VALUES ("1e2a602c-5591-4908-8877-c9a18edbc7af",
+	"c644f627-c064-40a0-ba0a-403bd0fbfae2",
+	"00000000-0000-0000-0000-000000000000",
+	'ID',
+	'',
+	'',
+	'ID',
+	0,
+	"4a37786a-cec7-4af9-a1a7-2306299bf40c",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("4a37786a-cec7-4af9-a1a7-2306299bf40c",
+	"00000000-0000-0000-0000-000000000000",
+	'Singleton',
+	'',
+	'',
+	'../Parsing.xtuml');
+INSERT INTO O_ID
+	VALUES (0,
+	"c644f627-c064-40a0-ba0a-403bd0fbfae2");
+INSERT INTO O_OIDA
+	VALUES ("1e2a602c-5591-4908-8877-c9a18edbc7af",
+	"c644f627-c064-40a0-ba0a-403bd0fbfae2",
+	0,
+	'ID');
+INSERT INTO O_ID
+	VALUES (1,
+	"c644f627-c064-40a0-ba0a-403bd0fbfae2");
+INSERT INTO O_ID
+	VALUES (2,
+	"c644f627-c064-40a0-ba0a-403bd0fbfae2");
+INSERT INTO PE_PE
+	VALUES ("c644f627-c064-40a0-ba0a-403bd0fbfae2",
+	1,
+	"381b93a5-e12b-4f82-bd42-8281651dbb30",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("381b93a5-e12b-4f82-bd42-8281651dbb30",
+	"00000000-0000-0000-0000-000000000000",
+	"2d4e7b16-dfb2-4db4-a684-9485ebf8c38f",
+	'Parsing',
+	'',
+	0,
+	'../Parsing.xtuml');
