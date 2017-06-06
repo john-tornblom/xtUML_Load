@@ -47,6 +47,7 @@ public class Scanning implements ICharacter_StreamToProvider, IToken_StreamFromP
 	}
 
 	private void process() {
+		LA = ' ';
 		while (LA >= 0) {
 			next();
 		}
