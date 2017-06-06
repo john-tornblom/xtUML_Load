@@ -39,6 +39,13 @@ INSERT INTO S_SYNC
 	'Test_Text',
 	'',
 	'Scanner::Text(Value: "INSERT INTO X VALUES (1, 2, 3, ''test'', 3.14);");
+Scanner::Text(Value: "INSERT INTO Y VALUES (2);");
+Scanner::Text(Value: "INSERT INTO Y VALUES (3);");
+Scanner::Text(Value: "INSERT INTO Z VALUES ();");
+Scanner::Text(Value: "LINK 1 TO 2 ACROSS R1;");
+Scanner::Text(Value: "LINK 2 TO 3 ACROSS R2 USING 4;");
+
+
 ',
 	"ba5eda7a-def5-0000-0000-000000000000",
 	1,
